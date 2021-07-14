@@ -20,6 +20,7 @@
 		3963EDAC269EC90B005BC7DE /* DepositError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963EDAB269EC90B005BC7DE /* DepositError.swift */; };
 		3963EDAE269EF5B5005BC7DE /* ScanChequeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963EDAD269EF5B5005BC7DE /* ScanChequeView.swift */; };
 		3963EDB0269EF7A1005BC7DE /* ScanChequeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963EDAF269EF7A1005BC7DE /* ScanChequeViewModel.swift */; };
+		3963EDB6269F0D1C005BC7DE /* Screen Recording 2021-07-14 at 5.45.37 PM.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3963EDB5269F0D1C005BC7DE /* Screen Recording 2021-07-14 at 5.45.37 PM.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		3963EDAB269EC90B005BC7DE /* DepositError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositError.swift; sourceTree = "<group>"; };
 		3963EDAD269EF5B5005BC7DE /* ScanChequeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanChequeView.swift; sourceTree = "<group>"; };
 		3963EDAF269EF7A1005BC7DE /* ScanChequeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanChequeViewModel.swift; sourceTree = "<group>"; };
+		3963EDB5269F0D1C005BC7DE /* Screen Recording 2021-07-14 at 5.45.37 PM.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Recording 2021-07-14 at 5.45.37 PM.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		3963ED77269EC1DE005BC7DE /* Deposits */ = {
 			isa = PBXGroup;
 			children = (
+				3963EDB5269F0D1C005BC7DE /* Screen Recording 2021-07-14 at 5.45.37 PM.mov */,
 				3963ED78269EC1DE005BC7DE /* DepositsApp.swift */,
 				3963EDB4269EFEDD005BC7DE /* Services */,
 				3963EDB3269EFECF005BC7DE /* Model */,
@@ -286,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3963EDB6269F0D1C005BC7DE /* Screen Recording 2021-07-14 at 5.45.37 PM.mov in Resources */,
 				3963ED80269EC1DF005BC7DE /* Preview Assets.xcassets in Resources */,
 				3963ED7D269EC1DF005BC7DE /* Assets.xcassets in Resources */,
 			);
