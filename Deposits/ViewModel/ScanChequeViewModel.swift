@@ -15,7 +15,13 @@ struct ScanChequeViewModel {
         guard let amount = Double(amount) else {return nil}
         guard !description.isEmpty , !date.isEmpty else {return nil }
         
-        return DepositModel(id: UUID().uuidString, date: date, amount: amount, description: description, chequeImagePath: chequeImagePath)
+        return DepositModel(
+            id: UUID().uuidString,
+            date: date,
+            amount: amount,
+            description: description,
+            chequeImagePath: chequeImagePath
+        )
         
     }
 }

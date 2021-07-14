@@ -54,26 +54,3 @@ struct DepositsListView_Previews: PreviewProvider {
         DepositsListView()
     }
 }
-
-struct DepositsListTile : View {
-    
-    let desposit : DepositViewModel
-    
-    var body: some View {
-        
-        LazyVStack(alignment : .leading) {
-            
-            HStack {
-                Text(desposit.date)
-                Spacer()
-                Text(desposit.amount).fontWeight(.bold)
-            }.padding(.bottom, 10)
-            
-            Text(desposit.description)
-                .font(.body)
-                .foregroundColor(.gray)
-            
-        }
-        .padding(.top, 15)
-    }
-}

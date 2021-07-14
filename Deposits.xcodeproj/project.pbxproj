@@ -21,6 +21,7 @@
 		3963EDAE269EF5B5005BC7DE /* ScanChequeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963EDAD269EF5B5005BC7DE /* ScanChequeView.swift */; };
 		3963EDB0269EF7A1005BC7DE /* ScanChequeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963EDAF269EF7A1005BC7DE /* ScanChequeViewModel.swift */; };
 		3963EDB6269F0D1C005BC7DE /* Screen Recording 2021-07-14 at 5.45.37 PM.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3963EDB5269F0D1C005BC7DE /* Screen Recording 2021-07-14 at 5.45.37 PM.mov */; };
+		3963EDB8269F0D93005BC7DE /* DepositsListTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3963EDB7269F0D93005BC7DE /* DepositsListTile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		3963EDAD269EF5B5005BC7DE /* ScanChequeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanChequeView.swift; sourceTree = "<group>"; };
 		3963EDAF269EF7A1005BC7DE /* ScanChequeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanChequeViewModel.swift; sourceTree = "<group>"; };
 		3963EDB5269F0D1C005BC7DE /* Screen Recording 2021-07-14 at 5.45.37 PM.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Recording 2021-07-14 at 5.45.37 PM.mov"; sourceTree = "<group>"; };
+		3963EDB7269F0D93005BC7DE /* DepositsListTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositsListTile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				3963ED7A269EC1DE005BC7DE /* DepositsListView.swift */,
+				3963EDB7269F0D93005BC7DE /* DepositsListTile.swift */,
 				3963EDAD269EF5B5005BC7DE /* ScanChequeView.swift */,
 			);
 			path = Views;
@@ -322,6 +325,7 @@
 				3963EDAC269EC90B005BC7DE /* DepositError.swift in Sources */,
 				3963ED79269EC1DE005BC7DE /* DepositsApp.swift in Sources */,
 				3963EDA6269EC28A005BC7DE /* DepositModel.swift in Sources */,
+				3963EDB8269F0D93005BC7DE /* DepositsListTile.swift in Sources */,
 				3963EDB0269EF7A1005BC7DE /* ScanChequeViewModel.swift in Sources */,
 				3963EDA4269EC268005BC7DE /* DepositsService.swift in Sources */,
 				3963EDAA269EC6CB005BC7DE /* DepositsListViewModel.swift in Sources */,
